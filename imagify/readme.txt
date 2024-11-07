@@ -1,8 +1,8 @@
 === Imagify – Optimize Images & Convert WebP & AVIF | Compress Images Easily ===
 Contributors: wp_rocket, imagify
 Tags: optimize images, image optimization, compress images, convert webp, convert AVIF
-Tested up to: 6.5
-Stable tag: 2.2.2
+Tested up to: 6.6
+Stable tag: 2.2.3
 Requires PHP: 7.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -266,6 +266,13 @@ You can report any security bugs found in the source code of the site-reviews pl
 4. Other Media Page
 
 == Changelog ==
+= 2.2.3 =
+- Enhancement: Cache the calls to the license API to avoid sending unnecessary requests
+- 3rd-party compatibility: Update priority on `template_redirect` to improve compatibility with WP Rocket’s LazyLoad
+- Bugfix: Fix `Uncaught TypeError: strpos() expects parameter 1 to be string` fatal error
+- Enhancement: UI improvements
+- Enhancement: Improve the code architecture
+
 = 2.2.2 =
 - Enhancement: Allow to choose which Next-Gen images should be generated in UI
 - Enhancement: Guard against image size that’s not a string
