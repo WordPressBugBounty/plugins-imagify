@@ -125,17 +125,11 @@ class User {
 	 * @return void
 	 */
 	public function __construct() {
-		$user = get_transient( 'imagify_user_cache' );
+		$user = get_imagify_user();
 
-		if ( ! $user ) {
-			$user = get_imagify_user();
-
-			if ( is_wp_error( $user ) ) {
-				$this->error = $user;
-				return;
-			}
-
-			set_transient( 'imagify_user_cache', $user, 5 * MINUTE_IN_SECONDS );
+		if ( is_wp_error( $user ) ) {
+			$this->error = $user;
+			return;
 		}
 
 		$this->id                           = $user->id;
@@ -149,7 +143,7 @@ class User {
 		$this->next_date_update             = $user->next_date_update;
 		$this->is_active                    = $user->is_active;
 		$this->is_monthly                   = $user->is_monthly;
-		$this->error                        = false;
+		$this->error                        = is_wp_error( $user );
 	}
 
 	/**

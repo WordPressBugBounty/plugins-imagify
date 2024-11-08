@@ -825,6 +825,8 @@ class Imagify_Admin_Ajax_Post extends Imagify_Admin_Ajax_Post_Deprecated {
 
 		update_imagify_option( 'api_key', $api_key );
 
+		delete_transient( 'imagify_user_cache' );
+
 		wp_send_json_success();
 	}
 
