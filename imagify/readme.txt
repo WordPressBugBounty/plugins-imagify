@@ -2,7 +2,7 @@
 Contributors: wp_rocket, imagify
 Tags: optimize images, image optimization, compress images, convert webp, convert AVIF
 Tested up to: 6.7
-Stable tag: 2.2.3.2
+Stable tag: 2.2.4
 Requires PHP: 7.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -266,6 +266,12 @@ You can report any security bugs found in the source code of the site-reviews pl
 4. Other Media Page
 
 == Changelog ==
+= 2.2.4 =
+- Enhancement: Deactivate by default calculation of the media elements used for the filters in the Media Library view.
+- Enhancement: Remove unnecessary calls to the API on each page load.
+- Enhancement: Update the UI of the banners, remove the unnecessary step before the checkout.
+- 3rd-party compatibility: Fix a problem when an unstyled banner was displayed on Gravity Forms plugin view.
+
 = 2.2.3.2 =
 - Enhancement: Optimize and cache the modal attachment counter database query.
 
