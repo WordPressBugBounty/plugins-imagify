@@ -190,17 +190,17 @@
         },
         {
             "name": "wp-media/plugin-family",
-            "version": "v1.0.3",
-            "version_normalized": "1.0.3.0",
+            "version": "v1.0.4",
+            "version_normalized": "1.0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/plugin-family.git",
-                "reference": "9e138461d97ed44c455cdbc4bdd61b2dba6b1bf5"
+                "reference": "83714bdfb7d98d4fe74781844c325be909db13a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/plugin-family/zipball/9e138461d97ed44c455cdbc4bdd61b2dba6b1bf5",
-                "reference": "9e138461d97ed44c455cdbc4bdd61b2dba6b1bf5",
+                "url": "https://api.github.com/repos/wp-media/plugin-family/zipball/83714bdfb7d98d4fe74781844c325be909db13a4",
+                "reference": "83714bdfb7d98d4fe74781844c325be909db13a4",
                 "shasum": ""
             },
             "require-dev": {
@@ -211,7 +211,7 @@
                 "wp-coding-standards/wpcs": "^3",
                 "wp-media/phpunit": "^3"
             },
-            "time": "2024-11-28T16:53:47+00:00",
+            "time": "2024-12-30T10:08:18+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -233,7 +233,7 @@
             "description": "Organizes and displays WP Media plugin family across other members.",
             "support": {
                 "issues": "https://github.com/wp-media/plugin-family/issues",
-                "source": "https://github.com/wp-media/plugin-family/tree/v1.0.3"
+                "source": "https://github.com/wp-media/plugin-family/tree/v1.0.4"
             },
             "install-path": "../wp-media/plugin-family"
         }
