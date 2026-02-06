@@ -14,11 +14,11 @@ class ComposerStaticInit0904377d4ce7befc7e9814f085804f15
     );
 
     public static $prefixLengthsPsr4 = array (
-        'W' => 
+        'W' =>
         array (
             'WPMedia\\PluginFamily\\' => 21,
         ),
-        'I' => 
+        'I' =>
         array (
             'Imagify\\ThirdParty\\WPRocket\\' => 28,
             'Imagify\\ThirdParty\\RegenerateThumbnails\\' => 40,
@@ -29,58 +29,58 @@ class ComposerStaticInit0904377d4ce7befc7e9814f085804f15
             'Imagify\\Deprecated\\Traits\\' => 26,
             'Imagify\\' => 8,
         ),
-        'D' => 
+        'D' =>
         array (
             'Dangoodman\\ComposerForWordpress\\' => 32,
         ),
-        'C' => 
+        'C' =>
         array (
             'Composer\\Installers\\' => 20,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'WPMedia\\PluginFamily\\' => 
+        'WPMedia\\PluginFamily\\' =>
         array (
             0 => __DIR__ . '/..' . '/wp-media/plugin-family/src',
         ),
-        'Imagify\\ThirdParty\\WPRocket\\' => 
+        'Imagify\\ThirdParty\\WPRocket\\' =>
         array (
             0 => __DIR__ . '/../..' . '/inc/3rd-party/wp-rocket/classes',
         ),
-        'Imagify\\ThirdParty\\RegenerateThumbnails\\' => 
+        'Imagify\\ThirdParty\\RegenerateThumbnails\\' =>
         array (
             0 => __DIR__ . '/../..' . '/inc/3rd-party/regenerate-thumbnails/classes',
         ),
-        'Imagify\\ThirdParty\\NGG\\' => 
+        'Imagify\\ThirdParty\\NGG\\' =>
         array (
             0 => __DIR__ . '/../..' . '/inc/3rd-party/nextgen-gallery/classes',
         ),
-        'Imagify\\ThirdParty\\FormidablePro\\' => 
+        'Imagify\\ThirdParty\\FormidablePro\\' =>
         array (
             0 => __DIR__ . '/../..' . '/inc/3rd-party/formidable-pro/classes',
         ),
-        'Imagify\\ThirdParty\\EnableMediaReplace\\' => 
+        'Imagify\\ThirdParty\\EnableMediaReplace\\' =>
         array (
             0 => __DIR__ . '/../..' . '/inc/3rd-party/enable-media-replace/classes',
         ),
-        'Imagify\\ThirdParty\\AS3CF\\' => 
+        'Imagify\\ThirdParty\\AS3CF\\' =>
         array (
             0 => __DIR__ . '/../..' . '/inc/3rd-party/amazon-s3-and-cloudfront/classes',
         ),
-        'Imagify\\Deprecated\\Traits\\' => 
+        'Imagify\\Deprecated\\Traits\\' =>
         array (
             0 => __DIR__ . '/../..' . '/inc/deprecated/Traits',
         ),
-        'Imagify\\' => 
+        'Imagify\\' =>
         array (
             0 => __DIR__ . '/../..' . '/classes',
         ),
-        'Dangoodman\\ComposerForWordpress\\' => 
+        'Dangoodman\\ComposerForWordpress\\' =>
         array (
             0 => __DIR__ . '/..' . '/dangoodman/composer-for-wordpress',
         ),
-        'Composer\\Installers\\' => 
+        'Composer\\Installers\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
         ),
