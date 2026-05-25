@@ -51,6 +51,6 @@ return array(
     'Imagify_Settings' => $baseDir . '/inc/classes/class-imagify-settings.php',
     'Imagify_User' => $baseDir . '/inc/deprecated/classes/class-imagify-user.php',
     'Imagify_Views' => $baseDir . '/inc/classes/class-imagify-views.php',
-    'Imagify_WP_Async_Request' => $baseDir . '/inc/classes/Dependencies/deliciousbrains/wp-background-processing/classes/wp-async-request.php',
-    'Imagify_WP_Background_Process' => $baseDir . '/inc/classes/Dependencies/deliciousbrains/wp-background-processing/classes/wp-background-process.php',
+    'Imagify_WP_Async_Request' => $vendorDir . '/deliciousbrains/wp-background-processing/classes/wp-async-request.php',
+    'Imagify_WP_Background_Process' => $vendorDir . '/deliciousbrains/wp-background-processing/classes/wp-background-process.php',
 );
