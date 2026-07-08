@@ -319,6 +319,160 @@ namespace Imagify\Dependencies {
     array (
     ),
   ),
+  'WPMedia_Base_MixpanelBase' => 
+  array (
+    'type' => 'class',
+    'classname' => 'WPMedia_Base_MixpanelBase',
+    'isabstract' => false,
+    'namespace' => '\\',
+    'extends' => 'Imagify_WPMedia_Base_MixpanelBase',
+    'implements' => 
+    array (
+    ),
+  ),
+  'WPMedia_ConsumerStrategies_AbstractConsumer' => 
+  array (
+    'type' => 'class',
+    'classname' => 'WPMedia_ConsumerStrategies_AbstractConsumer',
+    'isabstract' => true,
+    'namespace' => '\\',
+    'extends' => 'Imagify_WPMedia_ConsumerStrategies_AbstractConsumer',
+    'implements' => 
+    array (
+    ),
+  ),
+  'WPMedia_ConsumerStrategies_CurlConsumer' => 
+  array (
+    'type' => 'class',
+    'classname' => 'WPMedia_ConsumerStrategies_CurlConsumer',
+    'isabstract' => false,
+    'namespace' => '\\',
+    'extends' => 'Imagify_WPMedia_ConsumerStrategies_CurlConsumer',
+    'implements' => 
+    array (
+    ),
+  ),
+  'WPMedia_ConsumerStrategies_FileConsumer' => 
+  array (
+    'type' => 'class',
+    'classname' => 'WPMedia_ConsumerStrategies_FileConsumer',
+    'isabstract' => false,
+    'namespace' => '\\',
+    'extends' => 'Imagify_WPMedia_ConsumerStrategies_FileConsumer',
+    'implements' => 
+    array (
+    ),
+  ),
+  'WPMedia_ConsumerStrategies_SocketConsumer' => 
+  array (
+    'type' => 'class',
+    'classname' => 'WPMedia_ConsumerStrategies_SocketConsumer',
+    'isabstract' => false,
+    'namespace' => '\\',
+    'extends' => 'Imagify_WPMedia_ConsumerStrategies_SocketConsumer',
+    'implements' => 
+    array (
+    ),
+  ),
+  'WPMedia_Mixpanel' => 
+  array (
+    'type' => 'class',
+    'classname' => 'WPMedia_Mixpanel',
+    'isabstract' => false,
+    'namespace' => '\\',
+    'extends' => 'Imagify_WPMedia_Mixpanel',
+    'implements' => 
+    array (
+    ),
+  ),
+  'WPMedia_Producers_MixpanelBaseProducer' => 
+  array (
+    'type' => 'class',
+    'classname' => 'WPMedia_Producers_MixpanelBaseProducer',
+    'isabstract' => true,
+    'namespace' => '\\',
+    'extends' => 'Imagify_WPMedia_Producers_MixpanelBaseProducer',
+    'implements' => 
+    array (
+    ),
+  ),
+  'WPMedia_Producers_MixpanelEvents' => 
+  array (
+    'type' => 'class',
+    'classname' => 'WPMedia_Producers_MixpanelEvents',
+    'isabstract' => false,
+    'namespace' => '\\',
+    'extends' => 'Imagify_WPMedia_Producers_MixpanelEvents',
+    'implements' => 
+    array (
+    ),
+  ),
+  'WPMedia_Producers_MixpanelGroups' => 
+  array (
+    'type' => 'class',
+    'classname' => 'WPMedia_Producers_MixpanelGroups',
+    'isabstract' => false,
+    'namespace' => '\\',
+    'extends' => 'Imagify_WPMedia_Producers_MixpanelGroups',
+    'implements' => 
+    array (
+    ),
+  ),
+  'WPMedia_Producers_MixpanelPeople' => 
+  array (
+    'type' => 'class',
+    'classname' => 'WPMedia_Producers_MixpanelPeople',
+    'isabstract' => false,
+    'namespace' => '\\',
+    'extends' => 'Imagify_WPMedia_Producers_MixpanelPeople',
+    'implements' => 
+    array (
+    ),
+  ),
+  'WPMedia\\Mixpanel\\Optin' => 
+  array (
+    'type' => 'class',
+    'classname' => 'Optin',
+    'isabstract' => false,
+    'namespace' => 'WPMedia\\Mixpanel',
+    'extends' => 'Imagify\\Dependencies\\WPMedia\\Mixpanel\\Optin',
+    'implements' => 
+    array (
+    ),
+  ),
+  'WPMedia\\Mixpanel\\Tracking' => 
+  array (
+    'type' => 'class',
+    'classname' => 'Tracking',
+    'isabstract' => false,
+    'namespace' => 'WPMedia\\Mixpanel',
+    'extends' => 'Imagify\\Dependencies\\WPMedia\\Mixpanel\\Tracking',
+    'implements' => 
+    array (
+    ),
+  ),
+  'WPMedia\\Mixpanel\\TrackingPlugin' => 
+  array (
+    'type' => 'class',
+    'classname' => 'TrackingPlugin',
+    'isabstract' => false,
+    'namespace' => 'WPMedia\\Mixpanel',
+    'extends' => 'Imagify\\Dependencies\\WPMedia\\Mixpanel\\TrackingPlugin',
+    'implements' => 
+    array (
+    ),
+  ),
+  'WPMedia\\Mixpanel\\WPConsumer' => 
+  array (
+    'type' => 'class',
+    'classname' => 'WPConsumer',
+    'isabstract' => false,
+    'namespace' => 'WPMedia\\Mixpanel',
+    'extends' => 'Imagify\\Dependencies\\WPMedia\\Mixpanel\\WPConsumer',
+    'implements' => 
+    array (
+    ),
+  ),
   'League\\Container\\Argument\\ArgumentResolverTrait' => 
   array (
     'type' => 'trait',
