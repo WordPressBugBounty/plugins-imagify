@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'wp-media/imagify-plugin',
-        'pretty_version' => 'v2.3.1',
-        'version' => '2.3.1.0',
-        'reference' => 'fc510bc016ea7f82460dd688882938eaf6abedbf',
+        'pretty_version' => 'v2.3.2',
+        'version' => '2.3.2.0',
+        'reference' => '6c2825060dfbbf1a69883a933ad6552e05942db7',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -106,9 +106,9 @@
             'dev_requirement' => false,
         ),
         'wp-media/imagify-plugin' => array(
-            'pretty_version' => 'v2.3.1',
-            'version' => '2.3.1.0',
-            'reference' => 'fc510bc016ea7f82460dd688882938eaf6abedbf',
+            'pretty_version' => 'v2.3.2',
+            'version' => '2.3.2.0',
+            'reference' => '6c2825060dfbbf1a69883a933ad6552e05942db7',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -133,9 +133,9 @@
             'dev_requirement' => false,
         ),
         'wp-media/wp-mixpanel' => array(
-            'pretty_version' => 'v1.4.1',
-            'version' => '1.4.1.0',
-            'reference' => '09dea8a51f97e8047defc9f8a995b87dec76baad',
+            'pretty_version' => 'v1.4.4',
+            'version' => '1.4.4.0',
+            'reference' => '424106dea366f96cb21d9ccb537e388ec1187a57',
             'type' => 'library',
             'install_path' => __DIR__ . '/../wp-media/wp-mixpanel',
             'aliases' => array(),
