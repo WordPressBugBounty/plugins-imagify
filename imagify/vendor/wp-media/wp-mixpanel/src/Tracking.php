@@ -13,7 +13,7 @@ class Tracking {
 	/**
 	 * Mixpanel instance
 	 *
-	 * @var WPMedia_Mixpanel
+	 * @var Imagify_WPMedia_Mixpanel
 	 */
 	private $mixpanel;
 
