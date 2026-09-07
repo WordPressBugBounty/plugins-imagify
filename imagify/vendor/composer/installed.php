@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'wp-media/imagify-plugin',
-        'pretty_version' => 'v2.3.3',
-        'version' => '2.3.3.0',
-        'reference' => 'da8dd23fdeb056d19ebe317933a036ff2985b26d',
+        'pretty_version' => 'v2.3.4',
+        'version' => '2.3.4.0',
+        'reference' => '0fae188479f4186436c085f20857090e542d8c5c',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'deliciousbrains/wp-background-processing' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'bdc7d1147c48487d64364282053d84c7447fc258',
+            'reference' => '755c63d79d8aabb01bfc167ffb4972256a75c572',
             'type' => 'library',
             'install_path' => __DIR__ . '/../deliciousbrains/wp-background-processing',
             'aliases' => array(
@@ -106,18 +106,18 @@
             'dev_requirement' => false,
         ),
         'wp-media/imagify-plugin' => array(
-            'pretty_version' => 'v2.3.3',
-            'version' => '2.3.3.0',
-            'reference' => 'da8dd23fdeb056d19ebe317933a036ff2985b26d',
+            'pretty_version' => 'v2.3.4',
+            'version' => '2.3.4.0',
+            'reference' => '0fae188479f4186436c085f20857090e542d8c5c',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'wp-media/mcp-oauth' => array(
-            'pretty_version' => 'v1.1',
-            'version' => '1.1.0.0',
-            'reference' => '0d170542ffe5435f8bfaf4852ea1567f043790f2',
+            'pretty_version' => 'v1.1.2',
+            'version' => '1.1.2.0',
+            'reference' => '2f6b10d8bb81a9ba8b2b33bb0450995486262b09',
             'type' => 'library',
             'install_path' => __DIR__ . '/../wp-media/mcp-oauth',
             'aliases' => array(),
